@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Titan Community Bank Prequalify Form">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Prequalify form</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Prequalify</a></li>
+        <li><a href="registration.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="main">
+
+    <form id="form">
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="re-email">Re-enter Email Address:</label><br>
+      <input type="email" id="re-email" name="re-email"><br>
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="city">City:</label><br>
+      <input type="text" id="city" name="city"><br>
+      <label for="state">State:</label><br>
+      <input type="text" id="state" name="state"><br>
+      <label for="zipcode">Zip Code:</label><br>
+      <input type="text" id="zipcode" name="zipcode"><br>
+      <label for="gincome">Gross Income:</label><br>
+      <input type="number" id="gincome" name="gincome"><br>
+      <label for="lastfour">Last 4 digits of ssn:</label><br>
+      <input type="text" id="lastfour" name="lastfour"><br>
+      <br>
+      <label for="acknowledge" class="acknowledge">This prequalification request serves as <br>my written instruction to Titan <br>Community Bank to obtain a “soft<br> inquiry” about my credit information,<br> which won’t affect my credit score. I <br>agree that TCB can send<br> me an email confirming my request.</label>
+      <br>
+      <input type="checkbox" id="acknowledge" name="acknowledge"><br>
+      <input type="submit" id="submit" name="Submit" value="Apply"><br>
+    </form>
+    <button id="reset">Reset</button>
+  </div>
+  <script src="js/prequalify.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Page</title>
+  <link href="css/style.css" rel="stylesheet" >
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="form.html">Prequalify</a></li>
+        <li><a href="registration.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+   <div id="main">
+    <div class = "registerContainer">
+      <form id="formRegister" action="login.html" method="get">
+        <label for="emailRegister">Email Address:</label><br>
+        <input type="email" id="emailRegister" name="emailRegister"><br>
+        <label for="passRegister">Password:</label><br>
+        <input type="text" id="passRegister" name="passRegister"><br>
+        <label for="confirmPassRegister">Confirm Password:</label><br>
+        <input type="text" id="confirmPassRegister" name="confirmPassRegister"><br>
+        <input type="submit" id="submitRegister" name="SubmitRegister" value="Register"><br>
+      </form>
+    </div>
+    <table id="registerTable" class="registerTable">
+      <tr>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Confirm Password</th>
+      </tr>
+      <tr>
+        <td>ex: myemail@email.com <br>must include @youremailprovider.com</td>
+        <td>Any combination of characters</td>
+        <td>Same Combination as Password</td>
+      </tr>
+    </table>
+   </div>
+   <script src="js/registration.js"></script>
+  </body>
+  </html>
