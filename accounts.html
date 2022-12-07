@@ -15,12 +15,26 @@
         <li><a href="form.html">Prequalify</a></li>
         <li><a href="registration.html">Register</a></li>
         <li><a href="login.html">Login</a></li>
+        <li><a href="accounts.html">Accounts</a></li>
       </ul>
     </nav>
   </header>
   <div id="main">
     <h1>Welcome to your Accounts Page</h1>
     <a class="prequalify" href="spendingtrends.html">Spending Trends Chart</a>
+    <div id ="list">
+      <h2 class ="titleTrans">Transactions</h2>
+      <h3 id ="availBalance"></h3>
+      <div id ="list2"></div>
+    </div>
+    <br>
+    <label for="enteredAmount">Enter Desired Amount:</label>
+    <br>
+    <input type="text" id="enteredAmount" name="widthdrawAmount"><br>
+    <button id="withdraw-bttn">Withdraw</button>
+    <button id="deposit-bttn">Deposit</button>
+
   </div>
+  <script src="js/transactions.js"></script>
 </body>
 </html>
